@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML Form</title>
+</head>
+<body>
+
+	<table border="1" cellspacing="0" cellpadding="5">
+		<tr>
+			<td><label for="username">Username :</label></td> 
+			<td><input type="text" id="username"></td>
+		</tr>
+		<tr>
+			<td><label for="password">Password :</label></td>
+			<td><input type="password" id="password"></td>
+		</tr>
+		<tr>
+			<td colspan="2" align="center">
+				<input type="radio" id="pria" name="jeniskelamin"><label for="pria">Pria</label>
+				<input type="radio" id="wanita" name="jeniskelamin"><label for="wanita">Wanita</label>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<input type="checkbox" id="menyanyi"><label for="menyanyi">menyanyi</label>
+				<input type="checkbox" id="olahraga"><label for="olahraga">olahraga</label>
+				<input type="checkbox" id="ngoding"><label for="ngoding">ngoding</label>
+			</td>
+		</tr>
+		<tr>
+			<td><label for="textarea">Text Area :</label></td>
+			<td><textarea id="textarea"></textarea></td>
+		</tr>
+		<tr>
+			<td><label for="namakota">Nama Kota :</label></td>
+			<td>
+				<select id="namakota">
+					<option>Bandung</option>
+					<option>Jakarta</option>
+					<option>Jogja</option>
+				</select>
+			</td>
+		</tr>
+		<!-- untuk tombol ada 3 yaitu button, submit, dan reset -->
+		<tr>
+			<td colspan="2" align="center"><button type="submit">Kirim</button></td>
+		</tr>
+	</table>
+
+</body>
+</html>
